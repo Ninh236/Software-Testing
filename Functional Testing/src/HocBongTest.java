@@ -90,7 +90,7 @@ class HocBongTest {
 
         // Test case 28
         assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(7, -4));
-        
+
         // Test case 29
         assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(8, 105));
     }
