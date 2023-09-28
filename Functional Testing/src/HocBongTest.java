@@ -81,5 +81,17 @@ class HocBongTest {
 
         // Test case 25
         assertEquals("Không được học bổng", hocBong.xepLoaiHocBong(2.5, 55));
+
+        // Test case 26
+        assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(-2, 50));
+
+        // Test case 27
+        assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(11, 70));
+
+        // Test case 28
+        assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(7, -4));
+        
+        // Test case 29
+        assertEquals("Lỗi đầu vào", hocBong.xepLoaiHocBong(8, 105));
     }
 }
